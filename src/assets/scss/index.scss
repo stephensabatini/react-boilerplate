@@ -1,0 +1,25 @@
+/**
+ * Sass Index File.
+ *
+ * This is where we bootstrap in all of the other SASS files. Linked is the
+ * documentation on how our SASS architecture is implemented.
+ *
+ * @link https://sass-guidelin.es/#the-7-1-pattern
+ */
+
+@import
+  'abstracts/variables',
+  'abstracts/mixins';
+
+@import
+  'base/base';
+
+@import
+  'layouts/header',
+  'layouts/nav',
+  'layouts/content',
+  'layouts/main',
+  'layouts/sidebar';
+
+@import
+  'components/button';

@@ -1,0 +1,9 @@
+.site-header {
+  background: #f00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: $header-min-height;
+  text-align: center;
+}

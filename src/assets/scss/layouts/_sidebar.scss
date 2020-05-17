@@ -1,0 +1,32 @@
+.site-sidebar {
+  background: rgba(0, 128, 0, 0.4);
+  margin-bottom: 0;
+  margin: 0 auto $padding-sm;
+  width: 80%;
+}
+
+.site-sidebar-inner {
+  padding: $padding-md;
+}
+
+.site-sidebar-inner > :first-child {
+  margin-top: 0;
+}
+
+.site-sidebar-inner > :last-child {
+  margin-bottom: 0;
+}
+
+@include tablet-up {
+  .site-sidebar {
+    flex: $sidebar-col-width;
+    margin-bottom: 0;
+    min-height: $content-min-height;
+  }
+}
+
+@media print {
+  .site-sidebar {
+    display: none;
+  }
+}

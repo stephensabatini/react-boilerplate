@@ -1,0 +1,11 @@
+.site-content {
+  display: flex;
+  flex-direction: column;
+  /* Note we use a 3-column layout later since we use thirds. */
+}
+
+@include tablet-up {
+  .site-content {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,14 @@
+$base-font-size: 16px;
+$base-font-size-print: 16px;
+
+$padding-sm: 0.625rem; // 10px
+$padding-md: 1rem; // 16px
+
+// Set minimum heights of components to equal 100% of the viewport;
+$header-min-height: 20vh;
+$content-min-height: calc(100vh - #{$header-min-height});
+
+// Columns for Main Content and Sidebar.
+$content-columns: 3;
+$main-article-col-width: 2; // Two thirds
+$sidebar-col-width: calc(#{$content-columns} - #{$main-article-col-width}); // Take up the rest.

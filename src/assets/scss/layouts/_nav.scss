@@ -1,0 +1,38 @@
+.main-navigation-toggle {
+  background: none;
+  border: 0;
+  font-size: 3rem;
+  position: absolute;
+    top: 0;
+    right: 0;
+  z-index: 1;
+}
+.main-navigation {
+  background: #fff;
+  color: #000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 2rem;
+  line-height: 2;
+  position: absolute;
+    top: 0;
+    left: 0;
+  width: 100%;
+  height: 100vh;
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  li {
+
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+.main-navigation-open .main-navigation {
+  display: flex;
+}

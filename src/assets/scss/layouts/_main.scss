@@ -1,0 +1,18 @@
+.site-main-inner {
+  padding: $padding-sm;
+}
+
+.site-main-inner > :first-child {
+  margin-top: 0;
+}
+
+.site-main-inner > :last-child {
+  margin-bottom: 0;
+}
+
+@include tablet-up {
+  .site-main {
+    flex: $main-article-col-width;
+    min-height: $content-min-height;
+  }
+}
