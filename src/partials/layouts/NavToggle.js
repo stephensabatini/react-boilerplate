@@ -11,7 +11,7 @@ class NavToggle extends Nav {
   }
 
   toggle() {
-    let nav = document.getElementsByTagName("body")[0];
+    let nav = document.getElementsByTagName('body')[0];
     nav.classList.toggle('main-navigation-open');
     if (this.state.expanded) {
       return this.setState({expanded: false});

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 class Nav extends React.Component {
   constructor(props) {
@@ -29,7 +29,7 @@ class Nav extends React.Component {
    * the aria-expanded attribute to reflect the new state.
    */
   hideNav() {
-    let nav = document.getElementsByTagName("body")[0];
+    let nav = document.getElementsByTagName('body')[0];
     nav.classList.remove('main-navigation-open');
     return this.setState({expanded: false});
   }
