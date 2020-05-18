@@ -1,3 +1,24 @@
 .btn {
-  color: #61dafb;
+  display: inline-block;
+  border: 1px solid #999;
+  color: #000;
+  cursor: pointer;
+  background-color: #eee;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: $padding-xs $padding-md;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  transition: $transition;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+
+  &:active,
+  &:focus,
+  &:hover {
+    border-color: #000;
+  }
 }
