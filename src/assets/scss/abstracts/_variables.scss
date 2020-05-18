@@ -1,6 +1,10 @@
 $base-font-size: 16px;
-$base-font-size-print: 16px;
+$base-font-size-print: 12pt;
 
+$primary-color: #f00;
+$secondary-color: rgba(0, 128, 0, 0.4);
+
+$padding-xs: 0.3125rem; // 5px
 $padding-sm: 0.625rem; // 10px
 $padding-md: 1rem; // 16px
 
@@ -8,7 +12,8 @@ $padding-md: 1rem; // 16px
 $header-min-height: 20vh;
 $content-min-height: calc(100vh - #{$header-min-height});
 
-// Columns for Main Content and Sidebar.
-$content-columns: 3;
+// Columns for Main Content and Sidebar (or the Content wrapper).
 $main-article-col-width: 2; // Two thirds
-$sidebar-col-width: calc(#{$content-columns} - #{$main-article-col-width}); // Take up the rest.
+$sidebar-col-width: 1; // One third
+
+$transition: 0.2s ease-in-out;
